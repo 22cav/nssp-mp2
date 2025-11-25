@@ -11,3 +11,39 @@ cd path/to/nssp-mp2
 chmod +x install.sh
 ./install.sh
 ```
+
+## Project Structure
+
+The project is structured as follows:
+
+```bash
+nssp-mp2/
+│
+├── data/
+│   ├── s1/
+│   │   ├── S1_A1_E1.mat
+│   │   ├── S1_A1_E2.mat
+│   │   └── S1_A1_E3.mat
+│   ├── s2/
+│   │   ├── S2_A1_E1.mat
+│   │   ├── S2_A1_E2.mat
+│   │   └── S2_A1_E3.mat
+│   └── ...
+│
+├── part1/
+│   ├── figures/
+│   │   └── ...
+│   └── single_subject.ipynb
+├── part2/
+│   ├── figures/
+│   │   └── ...
+│   └── generalization.ipynb
+├── part3/
+│   ├── figures/
+│   │   └── ...
+│   └── joint_angles.ipynb
+│
+├── .gitignore
+├── README.md
+└── install.sh
+```
