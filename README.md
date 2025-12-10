@@ -20,15 +20,19 @@ The project is structured as follows:
 nssp-mp2/
 │
 ├── data/
-│   ├── s1/
-│   │   ├── S1_A1_E1.mat
-│   │   ├── S1_A1_E2.mat
-│   │   └── S1_A1_E3.mat
-│   ├── s2/
-│   │   ├── S2_A1_E1.mat
-│   │   ├── S2_A1_E2.mat
-│   │   └── S2_A1_E3.mat
-│   └── ...
+│   ├── DB1
+│   │   ├── s1/
+│   │   │   ├── S1_A1_E1.mat
+│   │   │   ├── S1_A1_E2.mat
+│   │   │   └── S1_A1_E3.mat
+│   │   ├── s2/
+│   │   │   ├── S2_A1_E1.mat
+│   │   │   ├── S2_A1_E2.mat
+│   │   │   └── S2_A1_E3.mat
+│   │   └── ...
+│   └── DB8
+│       └── s1/
+│           └── S1_E1_A1.mat
 │
 ├── part1/
 │   ├── figures/
